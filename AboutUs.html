@@ -1,0 +1,755 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="media/favicons/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="media/favicons/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="media/favicons/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="media/favicons/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="media/favicons/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="media/favicons/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="media/favicons/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="media/favicons/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicons/apple-icon-180x180.png" />
+    <!-- <link rel="icon" type="image/png" sizes="192x192" href="media/favicons/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="media/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="media/favicons/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="media/favicons/favicon-16x16.png" /> -->
+    <link rel="shortcut icon" href="media/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="media/favicons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="media/favicons/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir&display=swap">
+    <title>About Us</title>
+
+</head>
+
+<body>
+    <div class="pagewraper home abbb secure container-fluid px-0 overflow-hidden">
+        <div class="container-fluid position-fixed w-100  bg_black" style="z-index: 999;">
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent w-100">
+                    <div class="container-fluid pt-2 px-0">
+                        <button class="navbar-toggler border-0" style="box-shadow: none;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="media/logo/menu.png" alt="">
+                        </button>
+                        <ul class="d-flex d-lg-none navbar-nav gap-3 d-flex flex-row justify-content-center align-items-center"
+                            style="margin-right: auto;">
+
+                            <li class="nav-item position-relative">
+                                <a class="nav-link cart_btn primary_clr fs14 text-uppercase text-white position-relative"
+                                    href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.7718 14.1697C11.0079 14.1697 11.2343 14.0769 11.4012 13.9116C11.5681 13.7464 11.6619 13.5223 11.6619 13.2886V11.5264C11.6619 11.2927 11.5681 11.0686 11.4012 10.9033C11.2343 10.7381 11.0079 10.6453 10.7718 10.6453C10.5357 10.6453 10.3093 10.7381 10.1423 10.9033C9.9754 11.0686 9.88162 11.2927 9.88162 11.5264V13.2886C9.88162 13.5223 9.9754 13.7464 10.1423 13.9116C10.3093 14.0769 10.5357 14.1697 10.7718 14.1697ZM7.21115 14.1697C7.44723 14.1697 7.67365 14.0769 7.84058 13.9116C8.00752 13.7464 8.1013 13.5223 8.1013 13.2886V11.5264C8.1013 11.2927 8.00752 11.0686 7.84058 10.9033C7.67365 10.7381 7.44723 10.6453 7.21115 10.6453C6.97506 10.6453 6.74865 10.7381 6.58171 10.9033C6.41477 11.0686 6.32099 11.2927 6.32099 11.5264V13.2886C6.32099 13.5223 6.41477 13.7464 6.58171 13.9116C6.74865 14.0769 6.97506 14.1697 7.21115 14.1697ZM15.2226 3.59638H13.9941L12.4542 0.556552C12.4071 0.444698 12.3373 0.343653 12.249 0.259731C12.1607 0.175809 12.0558 0.110814 11.941 0.0688074C11.8262 0.0268007 11.7039 0.00868537 11.5817 0.0155935C11.4595 0.0225015 11.34 0.0542847 11.2308 0.108956C11.1215 0.163628 11.0248 0.240014 10.9468 0.333339C10.8687 0.426665 10.8109 0.534925 10.777 0.651354C10.7432 0.767784 10.7339 0.889879 10.7498 1.01001C10.7658 1.13014 10.8066 1.24573 10.8697 1.34955L12.0002 3.59638H5.98273L7.11323 1.34955C7.19963 1.14417 7.20434 0.914038 7.12642 0.70536C7.0485 0.496682 6.89371 0.324906 6.69313 0.22452C6.49255 0.124134 6.26103 0.102571 6.04505 0.164158C5.82907 0.225746 5.64463 0.365925 5.52875 0.556552L3.98878 3.59638H2.76036C2.13119 3.60585 1.5256 3.83494 1.05041 4.24323C0.57522 4.65152 0.260951 5.2128 0.163031 5.82806C0.0651109 6.44332 0.18983 7.07305 0.515191 7.60617C0.840552 8.1393 1.34565 8.54158 1.94141 8.74206L2.60013 15.3151C2.66656 15.9694 2.97697 16.5757 3.47077 17.0156C3.96456 17.4555 4.60628 17.6974 5.2706 17.6941H12.7301C13.3944 17.6974 14.0362 17.4555 14.53 17.0156C15.0237 16.5757 15.3342 15.9694 15.4006 15.3151L16.0593 8.74206C16.6564 8.54098 17.1623 8.13723 17.4874 7.60233C17.8125 7.06742 17.9359 6.43587 17.8357 5.81954C17.7355 5.20322 17.4181 4.64189 16.9398 4.23498C16.4615 3.82808 15.8532 3.60185 15.2226 3.59638ZM13.6114 15.1389C13.5892 15.357 13.4858 15.5591 13.3212 15.7057C13.1566 15.8524 12.9427 15.933 12.7212 15.9319H5.2617C5.04026 15.933 4.82635 15.8524 4.66176 15.7057C4.49716 15.5591 4.39368 15.357 4.37154 15.1389L3.73953 8.88303H14.2434L13.6114 15.1389ZM15.2226 7.12082H2.76036C2.52427 7.12082 2.29786 7.02799 2.13092 6.86274C1.96399 6.6975 1.8702 6.47339 1.8702 6.23971C1.8702 6.00602 1.96399 5.78191 2.13092 5.61667C2.29786 5.45143 2.52427 5.3586 2.76036 5.3586H15.2226C15.4586 5.3586 15.6851 5.45143 15.852 5.61667C16.0189 5.78191 16.1127 6.00602 16.1127 6.23971C16.1127 6.47339 16.0189 6.6975 15.852 6.86274C15.6851 7.02799 15.4586 7.12082 15.2226 7.12082Z"
+                                            fill="#F6B93B" />
+                                    </svg>
+
+                                    <span class="position-absolute fw-bold text-dark rounded-circle p_back"
+                                        style="top:10px; right:-1px;font-size: 6px; padding:.5px 1px;">10</span></a>
+
+
+
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link  fs1 text-uppercase primary_clr" href="#"><i
+                                        class="fa-regular fa-user"></i></a>
+                            </li>
+
+                        </ul>
+                         <a class="navbar-brand" href="index.html">
+                            <img src="media/logo/logo.png" style="width: 92.93px; height: 63.48px;" alt="">
+                        </a>
+
+                        <div class="collapse navbar-collapse px-3 px-lg-0 justify-content-center pe-lg-5 position-relative"
+                            id="navbarNav">
+                            <div class="bg-white side_n">
+
+                            </div>
+                            <ul class="navbar-nav gap-3 mt-4  mt-lg-0" style="margin-left: auto;">
+                                <li class="nav-item">
+                                    <a class="nav-link primary_clr fs14 text-uppercase text-white" aria-current="page"
+                                        href="AboutUs.html">
+                                        About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link primary_clr fs14 text-uppercase text-white" href="101.html">1 on 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link primary_clr fs14 text-uppercase text-white" href="store.html">Store</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link primary_clr fs14 text-uppercase text-white" href="ContactUs.html">Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav gap-2 align-items-lg-center"
+                                style="justify-self:end; margin-left: auto;">
+
+                                <li class="nav-item fs14 dropdown mt-3 mt-lg-0">
+                                    <a class="nav-link primary_clr active  dropdown-toggle text-white" href="#"
+                                        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        GBP
+                                    </a>
+                                    <ul class="dropdown-menu p_back" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">USA</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">USA</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">USA</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">USA</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item d-none d-lg-inline-block position-relative">
+                                    <a class="nav-link cart_btn primary_clr fs14 text-uppercase text-white position-relative"
+                                        href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.7718 14.1697C11.0079 14.1697 11.2343 14.0769 11.4012 13.9116C11.5681 13.7464 11.6619 13.5223 11.6619 13.2886V11.5264C11.6619 11.2927 11.5681 11.0686 11.4012 10.9033C11.2343 10.7381 11.0079 10.6453 10.7718 10.6453C10.5357 10.6453 10.3093 10.7381 10.1423 10.9033C9.9754 11.0686 9.88162 11.2927 9.88162 11.5264V13.2886C9.88162 13.5223 9.9754 13.7464 10.1423 13.9116C10.3093 14.0769 10.5357 14.1697 10.7718 14.1697ZM7.21115 14.1697C7.44723 14.1697 7.67365 14.0769 7.84058 13.9116C8.00752 13.7464 8.1013 13.5223 8.1013 13.2886V11.5264C8.1013 11.2927 8.00752 11.0686 7.84058 10.9033C7.67365 10.7381 7.44723 10.6453 7.21115 10.6453C6.97506 10.6453 6.74865 10.7381 6.58171 10.9033C6.41477 11.0686 6.32099 11.2927 6.32099 11.5264V13.2886C6.32099 13.5223 6.41477 13.7464 6.58171 13.9116C6.74865 14.0769 6.97506 14.1697 7.21115 14.1697ZM15.2226 3.59638H13.9941L12.4542 0.556552C12.4071 0.444698 12.3373 0.343653 12.249 0.259731C12.1607 0.175809 12.0558 0.110814 11.941 0.0688074C11.8262 0.0268007 11.7039 0.00868537 11.5817 0.0155935C11.4595 0.0225015 11.34 0.0542847 11.2308 0.108956C11.1215 0.163628 11.0248 0.240014 10.9468 0.333339C10.8687 0.426665 10.8109 0.534925 10.777 0.651354C10.7432 0.767784 10.7339 0.889879 10.7498 1.01001C10.7658 1.13014 10.8066 1.24573 10.8697 1.34955L12.0002 3.59638H5.98273L7.11323 1.34955C7.19963 1.14417 7.20434 0.914038 7.12642 0.70536C7.0485 0.496682 6.89371 0.324906 6.69313 0.22452C6.49255 0.124134 6.26103 0.102571 6.04505 0.164158C5.82907 0.225746 5.64463 0.365925 5.52875 0.556552L3.98878 3.59638H2.76036C2.13119 3.60585 1.5256 3.83494 1.05041 4.24323C0.57522 4.65152 0.260951 5.2128 0.163031 5.82806C0.0651109 6.44332 0.18983 7.07305 0.515191 7.60617C0.840552 8.1393 1.34565 8.54158 1.94141 8.74206L2.60013 15.3151C2.66656 15.9694 2.97697 16.5757 3.47077 17.0156C3.96456 17.4555 4.60628 17.6974 5.2706 17.6941H12.7301C13.3944 17.6974 14.0362 17.4555 14.53 17.0156C15.0237 16.5757 15.3342 15.9694 15.4006 15.3151L16.0593 8.74206C16.6564 8.54098 17.1623 8.13723 17.4874 7.60233C17.8125 7.06742 17.9359 6.43587 17.8357 5.81954C17.7355 5.20322 17.4181 4.64189 16.9398 4.23498C16.4615 3.82808 15.8532 3.60185 15.2226 3.59638ZM13.6114 15.1389C13.5892 15.357 13.4858 15.5591 13.3212 15.7057C13.1566 15.8524 12.9427 15.933 12.7212 15.9319H5.2617C5.04026 15.933 4.82635 15.8524 4.66176 15.7057C4.49716 15.5591 4.39368 15.357 4.37154 15.1389L3.73953 8.88303H14.2434L13.6114 15.1389ZM15.2226 7.12082H2.76036C2.52427 7.12082 2.29786 7.02799 2.13092 6.86274C1.96399 6.6975 1.8702 6.47339 1.8702 6.23971C1.8702 6.00602 1.96399 5.78191 2.13092 5.61667C2.29786 5.45143 2.52427 5.3586 2.76036 5.3586H15.2226C15.4586 5.3586 15.6851 5.45143 15.852 5.61667C16.0189 5.78191 16.1127 6.00602 16.1127 6.23971C16.1127 6.47339 16.0189 6.6975 15.852 6.86274C15.6851 7.02799 15.4586 7.12082 15.2226 7.12082Z"
+                                                fill="#F6B93B" />
+                                        </svg>
+
+                                        <span class="position-absolute fw-bold text-dark rounded-circle p_back"
+                                            style="top:10px; right:-1px;font-size: 6px; padding:.5px 1px;">10</span></a>
+
+
+
+                                </li>
+                                <li class="nav-item d-none d-lg-inline-block">
+                                    <a class="nav-link  fs1 text-uppercase primary_clr" href="#"><i
+                                            class="fa-regular fa-user"></i></a>
+                                </li>
+
+
+                            </ul>
+
+
+                        </div>
+
+                        <div class="nav_cart" style="">
+                            <div class="inner position-absolute d-flex flex-column align-items-center bord bg-white">
+                                <div class="row w-100 border-0 rounded-0 position-relative gap-lg-0 gap-4 cart">
+                                    <div class="col-lg-4 col-12 d-flex justify-content-center mt-3 mb-3">
+                                        <div class="col-lg-12 col-8 mx-auto">
+                                            <img src="media/background/product.png" class="w-100">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-3 mb-3 position-relative">
+                                        <div class="row">
+                                            <div class="col-lg-11 col-8">
+                                                <div class="fs14">Product</div>
+
+                                            </div>
+                                            <div class="col-lg-1 col-1">
+                                                <div class="fs14">Type</div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-lg-11 col-8">
+
+                                                <h4 class="fs22">
+                                                    The Complete Web Developer Course 2.0
+                                                </h4>
+                                            </div>
+                                            <div class="col-lg-1 col-2">
+                                                <h4 class="fs22">
+                                                    Video
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="row mt-3  gap-lg-0 justify-content-lg-between gap-5 align-items-center">
+
+                                            <div class="col-lg-4 col-3 qyt">
+                                                <div class="d-flex" style="height: 32px;">
+                                                    <button onclick="decrement(this)"
+                                                        class="subb d-flex justify-content-center align-items-center btn rounded-0 "
+                                                        style="width:32px ;box-shadow: none; border-color: #F6B93B;">
+                                                        <i class="fa fa-chevron-left"></i>
+                                                    </button>
+                                                    <input type="text" class="fs14 number bord ps-2" value="0"
+                                                        style="width:32px;box-shadow: none;border: 2px solid #F6B93B; height: 32px; outline: none;">
+                                                    <button onclick="inrement(this)"
+                                                        class="add d-flex justify-content-center align-items-center btn rounded-0"
+                                                        style="width:32px ;box-shadow: none; border-color: #F6B93B;">
+                                                        <i class="fa fa-chevron-right"></i>
+                                                    </button>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-1 col-2">
+                                                <img src="media/logo/del.png" alt="">
+                                            </div>
+                                            <div class="col-lg-1 col-2">
+                                                <div class="fs14">Total</div>
+                                                <div class="fs22 ">£10.00</div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row w-100 border-0 rounded-0 position-relative gap-lg-0 gap-4 cart">
+                                    <div class="col-lg-4 col-12 d-flex justify-content-center mt-3 mb-3">
+                                        <div class="col-lg-12 col-8 mx-auto">
+                                            <img src="media/background/product.png" class="w-100">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-3 mb-3 position-relative">
+                                        <div class="row">
+                                            <div class="col-lg-11 col-8">
+                                                <div class="fs14">Product</div>
+
+                                            </div>
+                                            <div class="col-lg-1 col-1">
+                                                <div class="fs14">Type</div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-lg-11 col-8">
+
+                                                <h4 class="fs22">
+                                                    The Complete Web Developer Course 2.0
+                                                </h4>
+                                            </div>
+                                            <div class="col-lg-1 col-2">
+                                                <h4 class="fs22">
+                                                    Video
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="row mt-3  gap-lg-0 justify-content-lg-between gap-5 align-items-center">
+
+                                            <div class="col-lg-4 col-3 qyt">
+                                                <div class="d-flex" style="height: 32px;">
+                                                    <button onclick="decrement(this)"
+                                                        class="subb d-flex justify-content-center align-items-center btn rounded-0 "
+                                                        style="width:32px ;box-shadow: none; border-color: #F6B93B;">
+                                                        <i class="fa fa-chevron-left"></i>
+                                                    </button>
+                                                    <input type="text" class="fs14 number bord ps-2" value="0"
+                                                        style="width:32px;box-shadow: none;border: 2px solid #F6B93B; height: 32px; outline: none;">
+                                                    <button onclick="inrement(this)"
+                                                        class="add d-flex justify-content-center align-items-center btn rounded-0"
+                                                        style="width:32px ;box-shadow: none; border-color: #F6B93B;">
+                                                        <i class="fa fa-chevron-right"></i>
+                                                    </button>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-1 col-2">
+                                                <img src="media/logo/del.png" alt="">
+                                            </div>
+                                            <div class="col-lg-1 col-2">
+                                                <div class="fs14">Total</div>
+                                                <div class="fs22 ">£10.00</div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="row w-100 border-0 rounded-0 position-relative gap-lg-0 gap-4 cart">
+                                    <div class="col-lg-4 col-12 d-flex justify-content-center mt-3 mb-3">
+                                        <div class="col-lg-12 col-8 mx-auto">
+                                            <img src="media/background/product.png" class="w-100">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-3 mb-3 position-relative">
+                                        <div class="row">
+                                            <div class="col-lg-11 col-8">
+                                                <div class="fs14">Product</div>
+
+                                            </div>
+                                            <div class="col-lg-1 col-1">
+                                                <div class="fs14">Type</div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-lg-11 col-8">
+
+                                                <h4 class="fs22">
+                                                    The Complete Web Developer Course 2.0
+                                                </h4>
+                                            </div>
+                                            <div class="col-lg-1 col-2">
+                                                <h4 class="fs22">
+                                                    Video
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="row mt-3  gap-lg-0 justify-content-lg-between gap-5 align-items-center">
+
+                                            <div class="col-lg-4 col-3 qyt">
+                                                <div class="d-flex" style="height: 32px;">
+                                                    <button onclick="decrement(this)"
+                                                        class="subb d-flex justify-content-center align-items-center btn rounded-0 "
+                                                        style="width:32px ;box-shadow: none; border-color: #F6B93B;">
+                                                        <i class="fa fa-chevron-left"></i>
+                                                    </button>
+                                                    <input type="text" class="fs14 number bord ps-2" value="0"
+                                                        style="width:32px;box-shadow: none;border: 2px solid #F6B93B; height: 32px; outline: none;">
+                                                    <button onclick="inrement(this)"
+                                                        class="add d-flex justify-content-center align-items-center btn rounded-0"
+                                                        style="width:32px ;box-shadow: none; border-color: #F6B93B;">
+                                                        <i class="fa fa-chevron-right"></i>
+                                                    </button>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-1 col-2">
+                                                <img src="media/logo/del.png" alt="">
+                                            </div>
+                                            <div class="col-lg-1 col-2">
+                                                <div class="fs14">Total</div>
+                                                <div class="fs22 ">£10.00</div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="row w-100 border-0 rounded-0 position-relative gap-lg-0 gap-4 cart">
+                                    <div class="col-lg-4 col-12 d-flex justify-content-center mt-3 mb-3">
+                                        <div class="col-lg-12 col-8 mx-auto">
+                                            <img src="media/background/product.png" class="w-100">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-3 mb-3 position-relative">
+                                        <div class="row">
+                                            <div class="col-lg-11 col-8">
+                                                <div class="fs14">Product</div>
+
+                                            </div>
+                                            <div class="col-lg-1 col-1">
+                                                <div class="fs14">Type</div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-lg-11 col-8">
+
+                                                <h4 class="fs22">
+                                                    The Complete Web Developer Course 2.0
+                                                </h4>
+                                            </div>
+                                            <div class="col-lg-1 col-2">
+                                                <h4 class="fs22">
+                                                    Video
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="row mt-3  gap-lg-0 justify-content-lg-between gap-5 align-items-center">
+
+                                            <div class="col-lg-4 col-3 qyt">
+                                                <div class="d-flex" style="height: 32px;">
+                                                    <button onclick="decrement(this)"
+                                                        class="subb d-flex justify-content-center align-items-center btn rounded-0 "
+                                                        style="width:32px ;box-shadow: none; border-color: #F6B93B;">
+                                                        <i class="fa fa-chevron-left"></i>
+                                                    </button>
+                                                    <input type="text" class="fs14 number bord ps-2" value="0"
+                                                        style="width:32px;box-shadow: none;border: 2px solid #F6B93B; height: 32px; outline: none;">
+                                                    <button onclick="inrement(this)"
+                                                        class="add d-flex justify-content-center align-items-center btn rounded-0"
+                                                        style="width:32px ;box-shadow: none; border-color: #F6B93B;">
+                                                        <i class="fa fa-chevron-right"></i>
+                                                    </button>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-1 col-2">
+                                                <img src="media/logo/del.png" alt="">
+                                            </div>
+                                            <div class="col-lg-1 col-2">
+                                                <div class="fs14">Total</div>
+                                                <div class="fs22 ">£10.00</div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row px-3 w-100 mb-3">
+                                    <div class="col-12" style="border-bottom: 3px solid #F6B93B;">
+                                    </div>
+
+                                    <div class="col-12 mt-3 d-flex justify-content-between">
+                                        <div class="fs22">
+                                            Total
+                                        </div>
+                                        <div class="fs36 fw-bold">
+                                            £25.00
+                                        </div>
+                                    </div>
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <button class="btn_pan">
+                                            <span class=" px-5 py-3">Proceed to Cart</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <section class="px-lg-4 about py-4" style="background-position-y: 100px;">
+            <div class="content container d-none d-lg-block bbb">
+                <div class="row justify-content-between position-relative  ">
+                    <div class="text-center text-black yellowBorder2 col-xxl-7 col-xl-10 col-lg-10 mx-auto">
+                        <h1 class="fs64 fsm29 fw-bolder fsm29 mb-4  text-capitalize col-lg-10 head text-center mx-auto">
+                            Why We’re the top choice </h1>
+                        <p class="fs16 fsm15 col-lg-11 col-12 mx-auto para_w">
+                            Lorem ipsum dolor sit amet consectetur. Eu amet tempus risus tellus ac ut enim faucibus.
+                            Dictum sed vulputate mi vitae vitae. Bibendum facilisi vitae eros consequat. Egestas elit in
+                            velit et. Feugiat a dui mollis augue in orci. Aliquam morbi diam turpis
+                            est ac nibh pellentesque ornare </p>
+                        <button class="btn_pan col-4">
+                            <span class="py-3">
+                                Explore Products
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-fluid mt-5 pt-3 text-center d-inline-block d-lg-none">
+                <div>
+                    <img src="media/background/Hero_mob.png" alt="">
+                </div>
+                <div class="px-2 ">
+                    <h1 class="fs64 w-100 px-5 py-5 fw-bolder fsm29 mb-4 text-capitalize yellowBorder"
+                        style="width: 100%;">
+                        Why We’re the top choice </h1>
+                </div>
+                <p class="fs16 fsm15 col-lg-4 col-12 mx-auto pb-3" style="margin-top: -30px;">
+                    Lorem ipsum dolor sit amet consectetur. Eu amet tempus risus tellus ac ut enim faucibus. Dictum sed
+                    vulputate mi vitae vitae. Bibendum facilisi vitae eros consequat. Egestas elit in velit et. Feugiat
+                    a dui mollis augue in orci. Aliquam morbi diam turpis
+                    est ac nibh pellentesque ornare
+
+                    <button class="btn_pan col-10 mt-4 ">
+                        <span class="py-3">
+                            Explore Products
+                        </span>
+                    </button>
+                </p>
+
+            </div>
+
+        </section>
+
+        <div class="imgHide imm homeBack2 "
+            style="background-color: #f4f4f4; background-image: url(media/background/about_us1.png); background-position-x:center;  background-repeat: no-repeat; background-position-y: -10px;">
+            <div class="container mt-lg-5 pt-lg-5 c1 myc2">
+                <div class="row justify-content-lg-start justify-content-center pt-lg-5">
+                    <div class="col-12 px-0">
+                        <img src="media/background/about33.png" class="w-100 d-block d-lg-none" alt="">
+                    </div>
+                    <div class="col-xxl-5 col-10 box2 mbb1 col-xl-6 col-lg-7 mt-4 bord22 p-4">
+                        <h2 class="fs48 fsm29 fsmm40 fw-bold text-capitalize">allow us to optimise your learning today!
+                        </h2>
+
+                        <p class="fs16 col-lg-12 ">Lorem ipsum dolor sit amet consectetur. Eu amet tempus risus tellus
+                            ac ut enim faucibus. Dictum sed vulputate mi vitae vitae. Bibendum facilisi vitae eros
+                            consequat. Egestas elit in velit et. Feugiat a dui mollis augue in orci.
+                            Aliquam morbi diam turpis est ac nibh pellentesque ornare pretium. Sed mattis ac commodo.
+                        </p>
+                        <div class="col-lg-5">
+                            <button class="btn_pan w-100">
+                                <span class="py-3 w-100">
+                                    Book a 1 on 1
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-transparent con2 mt-lg-5 mt-4">
+            <div class="row align-items-center bordY">
+                <div class="col-lg-5 p_back px-lg-5 px-4 py-5">
+                    <div class="fs48 fsm29 fw-bold lh-lg-1 text-capitalize">
+                        Empower Your potential in tech
+                    </div>
+                    <p class="fs16 pe-4 mt-4">
+                        Allow us to demonstrate why we are the most robust and valuable resource available to you. Lorem
+                        ipsum dolor sit amet consectetur. Volutpat leo hendrerit nec mauris dolor dui. Lorem ipsum.
+                    </p>
+                    <button class="btn2 px-5 py-3 mt-3 btnM">
+                        Explore products
+                    </button>
+                </div>
+                <div
+                    class="col-lg-7 py-5 py-lg-0 d-flex justify-content-between flex-lg-nowrap flex-wrap gap-lg-0 gap-5">
+                    <div class="px-4  text-center">
+                        <div>
+                            <img src="media/logo/Icon1.png" alt="">
+                        </div>
+                        <div class="fs22 mt-4">
+                            Custom learning
+                        </div>
+                        <div class="fs16 mt-2">
+                            Lorem ipsum dolor sit amet consectetur. Volutpat leo hendrerit nec mauris dolor dui.
+                        </div>
+                    </div>
+                    <div class="px-4 text-center">
+                        <div>
+                            <img src="media/logo/Icon-1.png" alt="">
+                        </div>
+                        <div class="fs22 mt-3">
+                            Constant access
+                        </div>
+                        <div class="fs16 mt-2">
+                            Lorem ipsum dolor sit amet consectetur. Volutpat leo hendrerit nec mauris dolor dui.
+                        </div>
+                    </div>
+                    <div class="px-4 text-center">
+                        <div>
+                            <img src="media/logo/Icon-2.png" alt="">
+                        </div>
+                        <div class="fs22 mt-3">
+                            Secure payments
+                        </div>
+                        <div class="fs16 mt-2">
+                            Lorem ipsum dolor sit amet consectetur. Volutpat leo hendrerit nec mauris dolor dui.
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class="imgHide homeBack2 ab2w"
+            style="background-color: #f4f4f4; background-image: url(media/background/about_us2.png); background-position-x:center;  background-repeat: no-repeat; background-position-y: -10px;">
+            <div class="container mt-lg-5 pt-lg-5 c1">
+                <div class="row justify-content-lg-end justify-content-center pt-lg-5">
+                    <div class="col-12 px-0">
+                        <img src="media/background/about3.png" class="w-100 d-block d-lg-none" alt="">
+                    </div>
+                    <div class="col-xxl-5 col-10 box2 col-xl-6 col-lg-7 mt-4 bord22 p-4">
+                        <h2 class="fs48 fsm29 fsmm27 col-xxl-10 col-xl-11 col-lg-12 fw-bold text-capitalize">Discover
+                            our love for coding</h2>
+
+                        <p class="fs16 col-lg-12 fsmm12">Lorem ipsum dolor sit amet consectetur. Eu amet tempus risus
+                            tellus ac ut enim faucibus. Dictum sed vulputate mi vitae vitae. Bibendum facilisi vitae
+                            eros consequat. Egestas elit in velit et. Feugiat a dui mollis augue in orci.
+                            Aliquam morbi diam turpis est ac nibh pellentesque ornare pretium. Sed mattis ac commodo.
+                            Bibendum facilisi vitae eros consequat. Egestas elit in velit et. Feugiat a dui mollis augue
+                            in orci. Aliquam morbi diam turpis est ac
+                            nibh pellentesque ornare pretium. Sed mattis ac commodo.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="imgHide"
+            style="background-image: url(media/background/about_us2.png); background-position-x:center; background-repeat: no-repeat; background-position-y: -10px;">
+            <div class="container mt-lg-5 pt-lg-5 c1 ">
+                <div class="row justify-content-end pt-lg-4 mt-lg-5">
+                    <div class="col-12 px-0">
+                        <img src="media/background/about3.png" class="w-100 d-block d-lg-none" alt="">
+                    </div>
+                    <div class="col-lg-5 mt-4 bord p-4">
+                        <h2 class="fs48 fsm29 col-lg-10 fw-bold text-capitalize">Discover our love for coding
+                        </h2>
+                        <p class="fs16 col-lg-12">
+                            Lorem ipsum dolor sit amet consectetur. Eu amet tempus risus tellus ac ut enim faucibus.
+                            Dictum sed vulputate mi vitae vitae. Bibendum facilisi vitae eros consequat. Egestas elit in
+                            velit et. Feugiat a dui mollis augue in orci. Aliquam morbi diam turpis
+                            est ac nibh pellentesque ornare pretium. Sed mattis ac commodo. Bibendum facilisi vitae eros
+                            consequat. Egestas elit in velit et. Feugiat a dui mollis augue in orci. Aliquam morbi diam
+                            turpis est ac nibh pellentesque ornare
+                            pretium. Sed mattis ac commodo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container-fluid mt-4 mt-lg-0">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-end p_back py-5 ">
+                    <div class="col-lg-9 py-lg-5">
+                        <h3 class="fs48 fsm29 text-capitalize blackBorder2 text-center text-lg-start">
+                            Don't wait any longer, upgrade your web development skills today
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center abMob"
+                    style="background-image: url(media/background/aboutL.png); background-position: center; background-size: cover;">
+
+                    <div class="col-lg-7 pe-lg-4 ms-lg-5 py-lg-0 py-5">
+                        <p class="text-white fs16 ms-lg-5 ">
+                            Lorem ipsum dolor sit amet consectetur. Eu amet tempus risus tellus ac ut enim faucibus.
+                            Dictum sed vulputate mi vitae vitae. Bibendum facilisi vitae eros consequat. Egestas elit in
+                            velit et. Feugiat a dui mollis augue in orci. Aliquam morbi diam turpis
+                            est ac nibh pellentesque ornare pretium. Sed mattis ac commodo.
+                        </p>
+                        <button class="ms-lg-5 btn1 p-3 text-uppercase  col-xxl-5 col-xl-6 col-lg-7 col-12">Contact
+                            us</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="px-3 px-lg-0 position-relative"
+            style=" background-image: url(media/background/BG\ Elements.png);background-size: auto; background-position: center; background-repeat: no-repeat;">
+            <!-- <canvas id="paper" class="position-absolute"></canvas> -->
+            <div class="container pt-lg-2 px-0 footer_box">
+                <div class="row mt-lg-5 justify-content-start gap-lg-5 gap-4">
+                    <div class="col-lg-2 col-12 footer_links pt-4 pt-lg-0">
+                        <h2 class="fs14 text-uppercase primary_clr fw-bold main_txt ">information</h2>
+                        <div class="d-flex flex-column  gap-2 mt-lg-4 flex-lg-nowrap flex-wrap ">
+                            <a href="AboutUs.html" class="text-decoration-none fs16 ">About Us</a>
+                            <a href="101.html" class="text-decoration-none fs16 ">1 on 1</a>
+                            <a href="store.html" class="text-decoration-none fs16 ">Store</a>
+                            <a href="ContactUs.html" class="text-decoration-none fs16 ">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 pe-4 col-12 footer_links text-lg-start ">
+                        <h2 class="fs14 text-uppercase primary_clr fw-bold main_txt">Helpful Links</h2>
+                        <div class="d-flex flex-column gap-2 gap-lg-2 mt-lg-4 ">
+                            <a href="terms.html" class="text-decoration-none fs16">Terms & Conditions</a>
+                            <a href="terms.html" class="text-decoration-none fs16 ">Privacy policy</a>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-12 footer_links text-lg-start ">
+                        <h2 class="fs14 text-uppercase primary_clr fw-bold main_txt">Company Details</h2>
+                        <div class="d-flex flex-lg-column  gap-2 gap-2 mt-lg-4 flex-lg-nowrap flex-wrap ">
+                            <p class="fs16 text-white lh-base">
+                                Coder Access Now <br> 123 Street Name<br> City,<br> Country<br> Post Code
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center"
+                        style="margin-left: auto;">
+                        <div class="col-lg-9 col-7">
+                            <img src="media/logo/logoF.png" class="w-100" alt="">
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="mx-lg-0 mx-auto mt-3">
+                                <img src="media/logo/Mastercard.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="d-flex w-100 flex-column flex-lg-row justify-content-center align-items-lg-center position-relative mt-5 pt-3">
+                    <div class="position-absolute line " style="
+                top: 0;
+                width: 100%;
+                height: 20px;
+                background: url(media/background/Line.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            
+                ">
+                    </div>
+                    <p class="fs16 mt-4 py-2 text-center text-lg-start" style="color: #9B9B9B;">
+                        © 2023 CoderAccessNow.com. All Rights Reserved. This site is not affiliated or owned by the
+                        listed gaming platform owners.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"
+            integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+            integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+        <script>
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                nav: true,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                    },
+                    800: {
+                        items: 3,
+                    },
+                    1000: {
+                        margin: 400,
+                        items: 5,
+                    },
+                },
+            });
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"
+            integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
